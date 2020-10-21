@@ -1,2 +1,2 @@
-# CaseritApp
-App Fran voz nanai
+# Non Dimenticare
+App Android para guardar cumpleaños
