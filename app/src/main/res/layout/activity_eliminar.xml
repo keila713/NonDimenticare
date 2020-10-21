@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fondo2"
+    tools:context=".Eliminar">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineIZQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="50dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineDER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="50dp" />
+
+    <TextView
+        android:id="@+id/txtEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtEliminar"
+        android:textColor="@color/colorBlue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDER"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDER"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toBottomOf="@+id/txtEliminar"
+        tools:text="@string/nombreCumple" />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDER"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombre"
+        tools:text="@string/fechaC" />
+
+    <TextView
+        android:id="@+id/tvFaltan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDER"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toBottomOf="@+id/tvFecha"
+        tools:text="@string/faltan" />
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/btnEliminar"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDER"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toBottomOf="@+id/tvFaltan" />
+
+    <ImageButton
+        android:id="@+id/ibtnCerrar"
+        android:layout_width="28dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/ibtnCerrar"
+        android:scaleType="center"
+        android:tint="@color/design_default_color_error"
+        app:layout_constraintEnd_toStartOf="@+id/tvCerrar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toBottomOf="@+id/btnEliminar"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <TextView
+        android:id="@+id/tvCerrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tvCerrar"
+        android:textColor="@color/design_default_color_error"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineDER"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintTop_toBottomOf="@+id/btnEliminar" />
+
+    <ImageButton
+        android:id="@+id/ibtnVolver"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/btnVolver"
+        android:tint="@color/colorBlue"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineIZQ"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

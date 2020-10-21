@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Non Dimenticare</string>
+
+    <!-- STRINGS INICIO -->
+    <string name="inicio">¡INGRESA AHORA!</string>
+    <string name="msj_inicio">No olvides más los cumpleaños de tus seres queridos</string>
+    <string name="btnInicio">Iniciar Sesión</string>
+    <string name="btnRegistro">Registrarse</string>
+
+    <!-- STRING CERRAR SESIÓN -->
+    <string name="ibtnCerrar">imagen buton Cerrar Sesión</string>
+    <string name="tvCerrar">Cerrar Sesión</string>
+
+    <!-- STRINGS LOGIN -->
+    <string name="imgLogin">imagen login</string>
+    <string name="id_user">id_user</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="swRecordarUser">Recordar usuario</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="tvRegistro">¿No estás registrado? Regístrate AQUÍ</string>
+
+    <!-- STRINGS REGISTRO USUARIO -->
+    <!-- Nota: String 'usuario' y 'password' en Login -->
+    <string name="imgRegistroUsuario">imagen registro usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="fechaN">Fecha de Nacimiento</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="password2">Repite password</string>
+    <string name="tvIngreso">¿Ya estás registrado? Ingresa AQUÍ</string>
+
+    <!-- STRINGS REGISTRO CUMPLEAÑOS -->
+    <string name="txtRegistroCumple">Registro de Cumpleaños</string>
+    <string name="nombreCumple">Nombre del cumpleañero</string>
+    <string name="fechaC">Fecha de cumpleaños</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="tvMuestra">Ver todos los cumpleaños</string>
+    <string name="imgTorta">imagen torta</string>
+
+    <!-- STRINGS MUESTRA CONSULTA -->
+    <string name="txtMuestra">Cumpleaños Registrados</string>
+    <string name="swOpcion">Buscar por mes</string>
+    <string name="prompt">Meses</string>
+    <string-array name="meses">
+        <item>Todos</item>
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string name="tvRegistroC">Registrar más Cumpleaños AQUÍ</string>
+    <string name="ibtnBuscar">image button Buscar</string>
+    <string name="ibtnEditar">image button Editar</string>
+    <string name="ibtnEliminar">image button Eliminar</string>
+    <string name="faltan">Faltan</string>
+
+    <!-- STRINGS ELIMINAR Y ACTUALIZAR CUMPLEAÑOS -->
+    <string name="txtEliminar">Eliminar Cumpleaños</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="btnVolver">image button volver</string>
+    <string name="txtActualizar">Edición de Cumpleaños</string>
+    <string name="btnActualizar">Guardar cambios</string>
+
+    <!-- STRINGS NOTIFICACION -->
+    <string name="notificacion">Notificacion</string>
+
+</resources>
